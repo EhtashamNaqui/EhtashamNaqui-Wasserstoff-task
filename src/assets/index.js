@@ -34,12 +34,8 @@ import Progress1 from "./Widget/M-size/Chart/Progress1.svg";
 import Progress2 from "./Widget/M-size/Chart/Progress2.svg";
 import Vectorchartcircle from "./Widget/M-size/Chart/Icon/Vectorchartcircle.svg";
 
-//below files has been discarded
 
-import Bubblechart from "./Bubblechart.jpg";
-import Globalstats from "./Globalstats.jpg";
-import Salespage from "./Salespage.jpg";
-import World1stpage from "./World1stpage.jpg";
+
 
 export {
   Fork1to2,
@@ -78,11 +74,6 @@ export {
   Progress2,
   Vectorchartcircle,
 
-//   below files are discarded
 
-Bubblechart,
-Globalstats,
-Salespage,
-World1stpage,
 
 };
