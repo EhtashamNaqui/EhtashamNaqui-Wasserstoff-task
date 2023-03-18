@@ -1,0 +1,67 @@
+nav {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  background: var(--snow-color);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 300;
+}
+
+.Logo {
+    width: 39.34px;
+    height: 39.33px;
+    /* padding: 10px; */
+    /* margin-left: 48.33px; */
+    /* margin-right: 1832.33px; */
+    position: absolute;
+    left: 48.33px;
+    right: 9.33px;
+    top: 10px;
+    bottom: 10.67px;
+}
+
+.Logotext {
+  position: absolute;
+  width: 161px;
+  height: 22px;
+  left: 97px;
+  top: calc(50% - 22px / 2);
+
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20.5076px;
+  line-height: 22px;
+  color: #000000;
+}
+
+nav ul {
+  margin-right: 192px;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 50px;
+}
+
+nav ul li a {
+  color: #8484a0;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.profile {
+  position: absolute;
+  width: 16px;
+  height: 21px;
+  right: 114px;
+  top: 20px;
+}
+
+.settings {
+  position: absolute;
+  width: 20px;
+  right: 62px;
+  top: 20px;
+}

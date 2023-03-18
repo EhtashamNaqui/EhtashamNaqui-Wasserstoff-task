@@ -1,0 +1,86 @@
+:root {
+  --bg-color: #eef0fa;
+  --purple-color: #8676ff;
+  --sky-color: #66c8ff;
+  --orange-color: #ff9066;
+  --yellow-color: #f8a243;
+  --green-color: #7bdda2;
+  --red-color: #ff7e7e;
+  --voilet-color: #e8a5ff;
+  --new-user-green-color: #00b929;
+  --blue-color: #023aff;
+  --pink-color: #ff708b;
+  --lavender-color: #dbdff1;
+  --night-blue-color: #383874;
+  --snow-color:#FFFFFF;
+
+  /* 2nd page eliments */
+
+  --light-blue-color: #383874;
+  --light-red-color: #ff505d;
+  --voiler-color: #9352e5;
+  --light-yellow: #fae634;
+
+  /* 3rd page eliments */
+
+  --bubble1-color: linear-gradient(0deg, #030092, #030092),
+    radial-gradient(
+        96% 96% at 70.4% 31.2%,
+        #838fff 0%,
+        rgba(227, 230, 255, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+  --bubble2-color: linear-gradient(0deg, #c500f7, #c500f7),
+    radial-gradient(
+        96% 96% at 70.4% 31.2%,
+        #ffe3d3 0%,
+        rgba(179, 0, 183, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+  --bubble3-color: linear-gradient(0deg, #0811e2, #0811e2),
+    radial-gradient(
+        96% 96% at 70.4% 31.2%,
+        #6ae4ff 0%,
+        rgba(74, 147, 255, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+  --bubble4-color: linear-gradient(0deg, #ff8a00, #ff8a00),
+    radial-gradient(
+        96% 96% at 70.4% 31.2%,
+        #ffb84d 0%,
+        rgba(119, 43, 0, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+  --bubble5-color: linear-gradient(0deg, #030092, #030092),
+    radial-gradient(96% 96% at 70.4% 31.2%, #3244e8 0%, rgba(0, 2, 16, 0) 100%)
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+*,
+*::after
+*::before{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+  /* max-width: 982px; */
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+.data-page {
+  /* color:blue */
+}
+
+a {
+  text-decoration: none;
+}

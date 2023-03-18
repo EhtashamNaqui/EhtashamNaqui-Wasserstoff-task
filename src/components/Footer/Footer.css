@@ -1,0 +1,83 @@
+footer .content-container {
+  padding: 11px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  width: 100%;
+}
+
+footer .content-container .links {
+    /* background-color: red; */
+  position: absolute;
+  width: 204px;
+  height: 35px;
+  line-height: 16px;
+  left: 67px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 16px;
+  letter-spacing: 1.5px;
+  /* identical to box height, or 160% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+
+  color: #5a5a89;
+}
+
+footer .content-container .year {
+  font-size: 10px;
+  color: #5a5a89;
+  font-weight: 700;
+  font-family: "Roboto";
+  line-height: 16px;
+  margin-left: 12px;
+
+  position: absolute;
+  width: 28px;
+  height: 16px;
+  right: 67px;
+  letter-spacing: 1.5px;
+
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.footer-white {
+  height: 38px;
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-direction: row;
+}
+
+.content-container .footer-white a {
+  color: white;
+  margin-left: 12px;
+}
+
+.content-container .footer-white a:hover {
+  color: var(--green-color);
+  font-weight: bolder;
+}
+
+/* position: fixed;
+  width: 100vw;
+  height: 60px;
+  background: red;
+  display: flex; */
+/* justify-content: flex-end; */
+/* align-items: center; */
+/* z-index: 300; */

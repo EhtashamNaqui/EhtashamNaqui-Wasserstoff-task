@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+header {
+  min-height: 621px;
+  height: fit-content;
+  background: #eef0fa;
+  background-size: cover;
+  /* background-position: inherit; */
+}
+
+header .wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+header .wrapper-full {
+  position: relative;
+  height: 597px;
+  display: flex;
+  /* top: 61px; */
+  padding: 10px;
+}
+
+header .wrapper .wrapper-left {
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 48px; */
+  z-index: 1;
+}
+header .wrapper .wrapper-right {
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: -9px 0;
+    /* background-position: inherit; */
+}
+
+header .cta {
+  position: absolute;
+  top: 65px;
+  left: 46px;
+}
+
+header .cta .user-text{
+    margin-top: 56px;
+    display: flex;
+    gap: 20px;
+}
+
+header .user-text .detail{
+margin-top: 11px;
+
+/* Tips and details / Overline */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+letter-spacing: 1.5px;
+text-transform: uppercase;
+
+/* Night Blue */
+
+color: #383874;
+}
+
+.square1{
+    width: 70px;
+    height: 70px;
+    background-color: #8676FF;
+    border-radius: 20px;
+}
+
+.trend{
+    position: absolute;
+    left: 32px;
+    top: 256px;    
+}
+
+.square2{
+    width: 70px;
+    height: 70px;
+    background-color: #66C8FF;
+    border-radius: 20px;
+}
+
+.crown{
+    position: absolute;
+    left: 32px;
+    top: 348px;
+}
+
+.square3{
+    width: 70px;
+    height: 70px;
+    background-color: #FF9066;
+    border-radius: 20px;
+}
+
+.purchase-chart{
+    position: absolute;
+    left: 32px;
+    top: 437px;
+}
+
+.side-arrow{
+    margin-top: 2.5px;
+}
+
+.data-page {
+  margin-top: 23px;
+}
+
+header .cta h1 {
+  /* Name */
+
+  width: 87px;
+  height: 32px;
+
+  /* Headline / H6 */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  /* identical to box height, or 160% */
+
+  letter-spacing: 0.15px;
+
+  /* Night Blue */
+
+  color: #383874;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+
+
+header .cta h2 {
+  position: absolute;
+  width: 310px;
+  height: 118px;
+  margin-top: 107px;
+  left: -5px;
+  top: 12px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 118px;
+  letter-spacing: -1.75px;
+  color: #383874;
+}
+
+.buttonx {
+   margin-top: 90px;
+   
+}
+
+.all-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.textbox-btn {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px
+    /* background-color: aquamarine; */
+}
+
+.textbox-btn p{
+    /* Value */
+
+
+width: 84px;
+height: 32px;
+
+/* Headline / H6 */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 32px;
+/* identical to box height, or 160% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.15px;
+
+/* Night Blue */
+
+color: #383874;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.earn-btn1{   
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.earn-btn2{   
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.earn-btn3{   
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.sales-btn {
+  /* Title */
+
+  width: 51px;
+  height: 10px;
+
+  /* Body / Title */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  /* identical to box height, or 160% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.44px;
+
+  /* Night Blue */
+
+  color: #383874;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.text-btn {
+  /* Title */
+
+  
+
+  /* Body / Title */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  /* identical to box height, or 160% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.44px;
+
+  /* Night Blue */
+
+  color: #383874;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.purchase-btn {
+  /* Title */
+
+  width: 87px;
+  height: 32px;
+
+  /* Body / Title */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  /* identical to box height, or 160% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.44px;
+
+  /* Night Blue */
+
+  color: #383874;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.hexmap {
+  /* position: absolute;
+  margin-top: -2.281875vw; */
+  /* background-color: blue; */
+  width: 1216px;
+  height: 564px;
+  margin-top: 144px;
+  margin-left: 273px;
+}
