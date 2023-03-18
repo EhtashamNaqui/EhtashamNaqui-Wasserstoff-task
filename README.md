@@ -18,8 +18,11 @@ it will start on port 5173.
 
 
 4 : A public Video link (5-10 min) explaining demo of the project is attached with this github repo.
+https://drive.google.com/file/d/1sa_VwyGOLox-sazmy7w9tqZ-UMDOH3Po/view?usp=sharing
+
 
 5 : A vercel or any other public hosted link -
+https://ehtasham-task.vercel.app/
 
 6 : How I approached the task -
 
